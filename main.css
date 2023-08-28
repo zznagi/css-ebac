@@ -1,0 +1,263 @@
+* { 
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px 0px;
+}
+
+header .conteiner {
+        color: rgb(255, 255, 255) ;
+        padding: auto 20px;
+        margin: 0px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+
+header li {
+    display: inline;
+}
+
+header li a{
+    color: aliceblue;
+}
+
+.conteiner {
+    width: 1366px;
+    margin: 0px auto;
+}
+
+body > header {
+    display:flex;
+    place-items: center;
+    box-sizing: border-box;
+    border: 10px solid rgb(166, 22, 22);
+    background-color: rgba(30, 29, 29, 0.853);
+    border-left: 1000px;
+    border-right: 1000px;
+    filter: drop-shadow(0px 10px 6px rgba(0, 0, 0, 0.795));
+    padding: 18px 0;
+    color: aliceblue,
+}
+
+section{
+    padding: 18px 0;
+}
+
+section h2, .articles article {
+    margin-bottom: 16px;
+}
+
+.articles article {
+    margin-left: 20px;
+    width: 30%;
+}
+
+.articles article h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.articles article a {
+    text-decoration: none;
+    box-sizing: border-box;
+    border: rgb(250, 250, 250) 3px solid;
+    font-weight:bolder;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 220px;
+}
+
+#Esport h2{
+    margin-bottom: 30px;
+    margin-left: 20px;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#Esport .articles {
+    font-size: 18px;
+}
+
+#Esport {
+    margin: auto auto;
+    background: linear-gradient(#dd4f08fc, rgb(34, 33, 33));
+    color: rgb(0, 0, 0);
+}
+
+#Esport .articles {
+    font-family:sans-serif;
+    color: white;
+}
+
+#Economy h2{
+    margin-left: 20px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif ;
+    color:rgba(242, 242, 242, 0.921);
+    filter: drop-shadow(3px 4px 3px rgba(0, 0, 0, 0.775));
+}
+
+#Economy .articles {
+    font-family:sans-serif
+}
+
+#Economy .articles {
+    font-size: 18px;
+}
+
+#Economy .articles a {
+    margin: auto auto;
+    border-color: black;
+    background-color: rgb(1, 255, 31);
+    color: rgb(0, 0, 0);
+    margin-top: 12px;
+}
+
+#Economy .conteiner h3{
+    gap: 30px;
+}
+
+#Economy .container {
+    box-sizing: border-box;
+    border-top: 15px solid;
+    border-color: #000000;
+    background: linear-gradient(#2fbd00, #5e5e5de8);
+    color: rgb(247, 247, 247);
+
+}
+
+#Cinema .container{
+    margin: auto auto;
+    box-sizing: border-box;
+    border-top: 15px solid;
+    background: linear-gradient(#601692, #ac0a0acb);
+    color: rgb(255, 255, 255);
+    border-color: #000000;
+}
+
+#Cinema .articles a {
+    margin: auto auto;
+    border-color: rgb(0, 0, 0);
+    background: linear-gradient(rgb(196, 0, 0), rgba(0, 0, 0, 0.658));
+    color: rgb(236, 236, 236);
+}
+
+
+#Cinema .articles .Oppenheimer {
+    font-size: 18px;
+}
+
+#Cinema .articles .Aranhaverso {
+    font-size: 18px;
+}
+
+#Cinema .articles .Besouro {
+    font-size: 18px;
+}
+
+#Cinema h2{
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif ;
+    color:rgba(242, 242, 242, 0.921);
+    filter: drop-shadow(3px 4px 3px rgba(0, 0, 0, 0.775));
+}
+
+#Jogos .container{
+    box-sizing: border-box;
+    border-top: 15px solid;
+    border-color: #000000;
+    background: linear-gradient(#444242, #838181);
+    color: rgb(248, 244, 244);
+}
+
+#Jogos h2{
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif ;
+    color:rgb(0, 0, 0);
+    filter: drop-shadow(3px 7px 6px rgba(8, 8, 8, 0.775));
+}
+
+#Jogos .WW3 h2{
+    font-size:30px ;
+    color:red ;
+    filter: drop-shadow(4px 5px 4px rgb(8, 8, 8));
+}
+
+#Jogos h2 {
+    padding-top:10px ;
+    color:white;
+    filter: drop-shadow(2px 7px 3px rgb(0, 0, 0));
+}
+
+#Jogos .Hades2 h2{
+    font-size:30px ;
+    color:rgb(10, 204, 3) ;
+    filter: drop-shadow(4px 5px 4px rgb(8, 8, 8));
+}
+
+#Jogos .Hollow2 img{
+    display: flex;
+    background: linear-gradient(rgb(83, 83, 83), rgb(0, 0, 0));
+}
+
+#Jogos .Hollow2 h2{
+    font-size:30px ;
+    box-sizing: border-box;
+    color:rgb(255, 94, 0) ;
+    filter: drop-shadow(4px 5px 4px rgba(8, 8, 8, 0.548));
+}
+
+#Cinema .articles a {
+    margin-top: 12px;
+}
+
+#Jogos .container .articles .WW3 a {
+    margin-top: 12px;
+    border-color: rgb(0, 0, 0);
+    background: linear-gradient(rgb(252, 0, 0), rgba(0, 0, 0, 0.918));
+    color: rgb(236, 236, 236);
+}
+
+#Jogos .container .articles .Hollow2 a {
+    margin-top: 12px;
+    border-color: rgb(0, 0, 0);
+    background: linear-gradient(rgb(247, 50, 1), rgba(26, 25, 24, 0.938));
+    color: rgb(236, 236, 236);
+}
+
+#Jogos .container .articles .Hollow2  {
+    font-size: 18px;
+}
+
+#Jogos .container .articles .Hades2  {
+    font-size: 18px;
+}
+
+#Jogos .container .articles .WW3  {
+    font-size: 18px;
+}
+
+#Jogos .container .articles .Hades2 a {
+    margin-top: 12px;
+    border-color: rgb(0, 0, 0);
+    background: linear-gradient(rgb(8, 252, 0), rgb(7, 53, 1));
+    color: rgb(236, 236, 236);
+}
